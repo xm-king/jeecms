@@ -9,6 +9,7 @@
 		<spring.version>3.0.6.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<!-- com.sun.tools 依赖 -->
 		<dependency>
 			<groupId>com.sun</groupId>
 			<artifactId>tools</artifactId>
