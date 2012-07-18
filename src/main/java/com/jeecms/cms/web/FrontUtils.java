@@ -152,8 +152,8 @@ public class FrontUtils {
 	 */
 	public static String getTplPath(HttpServletRequest request,
 			String solution, String dir, String name) {
-		return solution + "/" + dir + "/"
-				+ MessageResolver.getMessage(request, name) + TPL_SUFFIX;
+		String tplPath= solution + "/" + dir + "/"+ MessageResolver.getMessage(request, name) + TPL_SUFFIX;
+		return tplPath;
 	}
 
 	/**
